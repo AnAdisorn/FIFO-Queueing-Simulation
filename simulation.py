@@ -181,7 +181,7 @@ if __name__ == "__main__":
     for i, name in enumerate(["a", "c", "r"]):
         axes[i].hist(Times[name], bins=np.linspace(0, 15, 100), density=True)
         axes[i].set_xlabel(f"T{name}")  # Label for each histogram (total, completed, rejected)
-        axes[i].set_ylabel(f'{name}')
+        axes[i].set_ylabel("PDF")
 
     plt.subplots_adjust(hspace=1)  # Adjust spacing between subplots
     plt.show()
