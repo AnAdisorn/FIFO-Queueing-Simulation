@@ -1,3 +1,4 @@
+#%%
 import numpy as np
 from numpy.random import uniform, exponential
 
@@ -155,3 +156,4 @@ if __name__ == '__main__':
     plt.show()
     
     
+# %%
